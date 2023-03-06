@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Building a Website with HTML, CSS, and Javascript</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #EEE;
+            font-family: Tahoma, Verdana, sans-serif;
+            max-width: 45em;
+            margin: auto;
+            padding: 1em
+        }
+        code {
+            color: #AAA;
+            font-family: "Courier New", Courier, monospace;
+        }
+        img {
+            display: block;
+            margin: auto;
+            outline: 2px solid #AAA;
+            box-shadow: 0 0 2em #000;
+        }
+        a:link {
+            color: #88E;
+        }
+        a:visited {
+            color: #C8C;
+        }
+        a:active {
+            color: #E88;
+        }
+    </style>
+</head>
+<body>
+    <h1>Building a Website with HTML, CSS, and Javascript</h1>
+        <h2>Introduction</h2>
+            <p>This page is part of an assignment to convert the <a href="https://github.com/hoppersroppers/demoHtml">demoHtml</a> repo into a GitHub Pages site using self-taught technical skills. The requirements for the site and the methods used to achieve them are outlined below. It was written by <a href="https://github.com/catoutput/">catoutput</a> entirely by hand.</p>
+        <h2>Requirement #1: Have a solid color background.</h2>
+            <p>This is accomplished by adding a <code>background-color</code> property to the style of the page's <code>body</code> element. On this page, the background color has a value of <code>#222</code>.</p>
+        <h2>Requirement #2: Have at least one image.</h2>
+            <p>This is accomplished by adding an <code>img</code> element to the page and specifying a path to the desired image with the <code>src</code> attribute. It is also necessary to add an <code>alt</code> attribute to specify text to display in place of the text for readers who cannot view it. On this page, there is an image of a cat from Wikimedia Commons.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Cat_on_a_Mac.jpg" alt="Cat on a Mac" width="80%">
+        <h2>Requirement #3: Have at least one hyperlink.</h2>
+            <p>This is accomplished by adding an <code>a</code> elememt to the page and specifying the link's destination with the <code>href</code> attribute. In the interest of accomplishing two tasks at once, <a href="https://commons.wikimedia.org/wiki/File:Cat_on_a_Mac.jpg" target="_blank">click this text</a> for an example of a link to the page on Wikimedia Commons for the cat image used earlier, where you can also read about its license.</p>
+        <h2>Requirement #4: Have at least one snippet of Javascript that adds an OnClick event.</h2>
+            <p>This is accomplished by adding an <code>onclick</code> event to any element, similar to adding an attribute. For example, <button type="button" onclick="alert('Hello, World!')">click this button</button> to trigger an alert box that reads "Hello, World!".</p>
+        <h2>Requirement #5: Use CSS to make your font look pretty!</h2>
+            <p>There are a lot of ways to accomplish this. One way is adding a <code>font-family</code> property to style of the page's <code>body</code> element. On this page, the font family has a value of <code>Tahoma, Verdana, sans-serif</code>, which provdes a few font options depending on what it available on the reader's device.</p>
+</body>
+</html> 
